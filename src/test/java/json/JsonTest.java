@@ -9,4 +9,9 @@ public class JsonTest {
         manipulandoJson.criandoJson();
 
     }
+    @Test
+    public void lerJson(){
+        ManipulandoJson manipulandoJson = new ManipulandoJson();
+        manipulandoJson.navegarJsonArquivo();
+    }
 }
